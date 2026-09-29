@@ -17,7 +17,9 @@ form {
   border-radius: 10px;
   width: 800px;
 }
-input {
+input,
+textarea,
+select {
   margin: 5px 0px;
   padding: 5px;
   border: 1px solid coral;
@@ -29,4 +31,9 @@ input {
   color: white;
   font-weight: 600;
   border: none;
+}
+.obrigatorio {
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
 }
