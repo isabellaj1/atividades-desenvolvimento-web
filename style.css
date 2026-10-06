@@ -1,32 +1,41 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
-  background-color: gray;
-  font-family: monospace, sans-serif;
+    font-family: Helvetica, sans-serif;
+    background-color: lightgray;
 }
+
+.nav, .content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+a {
+    color: tomato;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 20px;
+}
+
+p {
+    font-family: Cambria, serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 h1 {
-  margin-bottom: 20px;
+    font-size: 40px;
+    color: crimson;
 }
-form {
-  background-color: white;
-  margin: 50px auto;
-  padding: 20px;
-  border-radius: 10px;
-  width: 800px;
+
+h2 {
+    font-size: 30px;
+    color: tomato;
 }
-input {
-  margin: 5px 0px;
-  padding: 5px;
-  border: 1px solid coral;
-  color: coral;
-}
-.button {
-  padding: 10px 10px;
-  background-color: coral;
-  color: white;
-  font-weight: 600;
-  border: none;
+
+.active {
+    background-color: tomato;
+    color: white;
+    padding: 5px 20px;
 }
