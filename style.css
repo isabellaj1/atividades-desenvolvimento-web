@@ -3,13 +3,6 @@ body {
     background-color: lightgray;
 }
 
-.nav, .content {
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-}
-
 a {
     color: tomato;
     font-family: monospace;
@@ -34,8 +27,39 @@ h2 {
     color: tomato;
 }
 
+img {
+    width: 300px;
+}
+
+label {
+    display: inline-block;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+input, textarea {
+    display: block;
+    padding: 5px;
+    border: 1px solid tomato;
+}
+
 .active {
     background-color: tomato;
     color: white;
     padding: 5px 20px;
+}
+
+.nav, .content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.form-button {
+    border: none;
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
 }
